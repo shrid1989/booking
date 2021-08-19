@@ -8,6 +8,9 @@ This pickup location search assignment built in React meets following criteria.
   - if user truncate the search term leaving only 1 character,
     then the search results list is no longer displayed.
 
+# Hosted URL
+https://car-booking-app-bc82f.web.app/
+
 
 Node version: 10.
 
