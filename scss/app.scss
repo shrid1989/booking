@@ -1,0 +1,20 @@
+//base
+@import '../scss/partials/base/reset';
+@import '../scss/partials/base/normalize';
+@import '../scss/partials/base/vars';
+// components
+@import '../scss/components/searchComponent.scss';
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    overflow-x: hidden;
+  }
+}
+
+body {
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    overflow: hidden;
+  }
+}

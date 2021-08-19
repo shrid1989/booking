@@ -1,0 +1,29 @@
+// Main default colours, header sizings etc //
+
+$primary-blue: #1899CD !default;
+$tertiary-blue: #1273C4 !default;
+$primary-red: #D4111E !default;
+$primary-white: #FFF !default;
+$primary-black: #000 !default;
+$primary-grey: #E2E2E2 !default;
+$panel-color: #FEBB02 !default;
+$airport-badge-color: #FF8000;
+$other-badge-color: #0071C2;
+$primary-badge-color: #1879CA;
+$button-color: #068323;
+$button-hover-color: #0D6521;
+$subText-Color: #474747;
+$suggestion-hover-color: #F1F7FC;
+$badge-text-color: #262626;
+
+// font weight
+
+/* Base font weights */
+$font-weight-normal: 500;
+$font-weight-bold: 700;
+
+
+/* Breakpoints */
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 980px;
+$breakpoint-wide: 1300px;
