@@ -2,7 +2,6 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/tests/setupTests.js'],
   collectCoverage: true,
   collectCoverageFrom: [
-    '!src/index.tsx',
     'src/**/*.ts',
     'src/**/*.tsx',
   ],
@@ -10,6 +9,7 @@ module.exports = {
     '<rootDir>/build/',
     '<rootDir>/node_modules/',
     '<rootDir>/__tests__/utils/',
+    "<rootDir>/src/index.tsx",
   ],
   transform: {
     '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$':
@@ -17,7 +17,7 @@ module.exports = {
     '^.+\\.(js|jsx)?$': 'babel-jest',
     '^.+\\.tsx?$': 'ts-jest',
   },
-  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$',
+  testRegex: '(/tests/.*|(\\.|/)(test|spec))\\.tsx?$',
 
   // Module file extensions for importing
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],

@@ -22,9 +22,6 @@ Production Build: `npm run build`
 
 Jest tests: `npm test`
 
-## Components
-
-* Some components are still built locally to this repo if they are custom to the project.
 
 # CSS Linter (SASS-LINT)
 ## property-sort-order:

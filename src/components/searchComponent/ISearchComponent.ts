@@ -3,5 +3,6 @@ export interface IPickUpLocation{
   city: string;
   region: string;
   country: string;
-  placeType: string
+  placeType: string;
+  displayText: string;
 }

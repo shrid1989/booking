@@ -72,6 +72,28 @@ describe('<SearchComponent /> Component', () => {
     const searchComponent = findByTestAttr(wrapper, 'booking-main-container');
     expect(searchComponent.length).toBe(1);
   });
+  test('Brand logo renders succesfully', () => {
+    const brandLogo = findByTestAttr(wrapper, 'brand-logo');
+    expect(brandLogo.length).toBe(1);
+  });
+  test('language-icon should render succesfully', () => {
+    const languageIcon = findByTestAttr(wrapper, 'language-icon');
+    expect(languageIcon.length).toBe(1);
+  });
+  test('currency Text should render succesfully', () => {
+    const currencytext = findByTestAttr(wrapper, 'currency-txt');
+    expect(currencytext.length).toBe(1);
+  });
+
+  test('Manage Booking Button should render succesfully', () => {
+    const manageBookingButton = findByTestAttr(wrapper, 'manage-booking-button');
+    expect(manageBookingButton.length).toBe(1);
+  });
+  test("Main heading shouldbe 'Car Hire – Search, Compare & Save'", () => {
+    const mainHeading = findByTestAttr(wrapper, 'main-heading');
+    expect(mainHeading.length).toBe(1);
+    expect(mainHeading.text()).toBe('Car Hire – Search, Compare & Save');
+  });
 
   test('Click button renders without error', () => {
     const buttonComponent = findByTestAttr(wrapper, 'submit-button');
