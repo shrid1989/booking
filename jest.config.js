@@ -8,7 +8,7 @@ module.exports = {
   testPathIgnorePatterns: [
     '<rootDir>/build/',
     '<rootDir>/node_modules/',
-    '<rootDir>/__tests__/utils/',
+    '<rootDir>/tests/utils/testHelpers.ts',
     "<rootDir>/src/index.tsx",
   ],
   transform: {
